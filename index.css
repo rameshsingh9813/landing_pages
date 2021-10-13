@@ -1,0 +1,89 @@
+body{
+    margin:100px;
+    padding:0px;
+}
+#header{
+    position:fixed;
+    background-color:hsl(0,100%,50%);
+    height:70px;
+    width:100%;
+    top:0px;
+}
+img { 
+    width:5%; /* you can use % */
+    height: auto;
+    border-width:2px;
+    border-style:dotted;
+} 
+figure{
+    display:inline-block;
+}
+a:hover{
+        background-color:green;
+}
+#nav-bar{
+    position:fixed;
+    top:0px;
+    right:10px;
+}
+#fp,#tp{
+    height:100%;
+    width:30%;
+    text-align:center;
+    margin-bottom:5%;
+    margin-left:55%;
+    background-color:white;
+    border-radius:15px;
+    box-shadow:3px 5px 20px black;
+    padding:5%;
+}
+#sp,#fop{
+    height:100%;
+    width:30%;
+    margin-bottom:10%;
+    background-color:white;
+    border-radius:15px;
+    box-shadow:3px 5px 20px black;
+    padding:5%;
+}
+
+
+.sdiv{
+    margin-top:90px;
+}
+.tdiv{
+    background-color:white;
+    margin-top:20%;
+    margin-left:30%;
+    margin-bottom:30px
+}
+h4{
+    text-align:center;
+}
+.fodiv{
+    text-align:center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:white;
+  }
+}
+  .flex-container {
+  display: flex;
+  flex-direction:colon;
+}
+body{
+    background-color:white;
+    margin:0;
+}
+footer{
+    padding:1%;
+    font-family: 'Courier New', Courier, monospace;
+    height:40px;
+    background-size:50px;
+    background-color:gray;
+    left:0px;
+    bottom:0px;
+    text-align:left;
+    margin-top:5px;
+}
